@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+/* Nav-bar */
 nav{
   position: fixed;
   top: 0;
@@ -63,7 +64,7 @@ ul a{
   font-family: 'Manrope', sans-serif;
   font-weight: 600;
 }
-
+/* Header */
 header{
   display: flex;
   min-height: 90vh;
@@ -266,6 +267,7 @@ input{
   border-radius: 8px;
   background-color: #FF6433; 
 }
+/* Section-2 */
 .section-2{
   display: flex;
   min-height: 90vh;
@@ -387,6 +389,7 @@ input{
   line-height: 25px;
   width: 100%;
 }
+/* Section-3 */
 .section-3{
   display: flex;
   min-height: 90vh;
@@ -479,6 +482,7 @@ input{
   height: auto;
   background-color: #E2E6E9;
 }
+/* Section-4 */
 .section-4 .box2{
   display: flex;
   flex-direction: row;
@@ -563,7 +567,7 @@ input{
   font-weight: 600;
   color: #1E1B1B;
 }
-
+/* Section-5 */
 .section-5{
   display: flex;
   min-height: 60vh;
@@ -630,7 +634,7 @@ input{
   font-size: 18px;
   font-weight: 600;
 }
-
+/* Section-6 */
 .section-6{
   display: flex;
   width: 100%;
@@ -656,9 +660,7 @@ input{
   font-family: 'Manrope', sans-serif;
   font-weight: 700;
 }
-/* .section-6 .m-b{
-
-} */
+/* .section-6 .m-b{} */
 .section-6 .middle-box{
   display: flex;
   column-gap: 55px;
@@ -752,6 +754,7 @@ input{
   text-decoration: none;
   cursor: pointer;
 }
+/* Section-7 */
 .section-7{
   display: flex;
   min-height: 100vh;
