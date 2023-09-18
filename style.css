@@ -924,8 +924,11 @@ footer .container{
 
 
 /* Phone view */
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) {
   /* Nav-bar */ 
+  nav{
+
+  }
   .nav-box{
     width: 100%;
     flex-direction: column;
@@ -961,10 +964,11 @@ footer .container{
   } 
 }
 /* Tablet view */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
  
 /* Nav-bar */ 
   .nav-box{
+    flex-direction: row;
     width: 90%;
   }
   .menu{
