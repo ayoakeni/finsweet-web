@@ -935,56 +935,42 @@ footer .container{
 @media screen and (max-width: 414px){
   /* Nav-bar */
 nav{
-  position: relative;
-  justify-content: none;
-  align-items: none;
-  padding: 10px 0px;
-  background-color: green;
-  z-index: 1;
+  padding: 10px;
 }
 .nav-box{
-  flex-direction: column;
-  justify-content: none;
-  width: 75%;
+  width: 100%;
+}
+.nav-box img{
+  height: 15px;
 }
 .menu{
-  flex-direction: column;
-  align-items: center;
-  column-gap: 5px;
+  column-gap: 10px;
 }
-
 ul{
   column-gap: 5px;
   border-right: none;
   padding-right: 0px; 
 }
 ul a{
-  font-size: 15px;
+  font-size: 10px;
 }
 .menu-details{
   column-gap: 5px;
 }
 .menu-details img{
-  min-width: 25px;
-  min-height: 25px;
-  max-width: 25px;
-  max-height: 25px;
+  min-width: 20px;
+  min-height: 20px;
+  max-width: 20px;
+  max-height: 20px;
 }
 .details-text{
-  line-height: 20px;
+  line-height: 12px;
 }
 .details-text .one{
-  color: black;
-  font-size: 14px;
-  letter-spacing: 1.5px;
-  font-family: 'Manrope', sans-serif;
-  font-weight: 500;
-  opacity: 80%;
+  font-size: 9px;
 }
 .details-text .two{
-  font-size: 18px;
-  font-family: 'Manrope', sans-serif;
-  font-weight: 600;
+  font-size: 12px;
 }
 
 /* Header */
@@ -1048,7 +1034,7 @@ header .right .rating{
 /* Section-1 */
 .section-1{
   min-height: auto;
-  padding-bottom: 20px;
+  padding: 30px 0px;
 }
 .section-1 .container{
   flex-direction: column;
@@ -1057,7 +1043,7 @@ header .right .rating{
 }
 .section-1 .left1{
   width: 100%;
-  row-gap: 2px;
+  row-gap: 25px;
   margin-bottom: 20px;
 }
 .section-1 .left1 h1{
@@ -1111,7 +1097,7 @@ header .right .rating{
   text-align: center;
 }
 form{
-  align-items: center;
+  row-gap: 10px;
 }
 form .loc{
   width: 90%;
@@ -1130,7 +1116,7 @@ form .submit {
 .section-2{
   min-height: auto;
   width: 100%;
-  padding-bottom: 20px;
+  padding: 30px 0px;
 }
 .section-2 .container{
   flex-direction: column;
@@ -1140,13 +1126,13 @@ form .submit {
 }
 .section-2 .left2{
   flex-direction: column;
-  row-gap: 10px;
+  row-gap: 20px;
   width: 100%;
 }
 .section-2 .left2 h1{
   font-size: 21px;
   width: 100%;
-  text-align: center;
+  text-align: normal;
 }
 .section-2 .left2 p{
   font-size: 13px;
@@ -1168,7 +1154,7 @@ form .submit {
   column-gap: 8px;
 }
 .line{
-  row-gap: 8px;
+  row-gap: 7px;
 }
 .circle-box{
   height: 40px;
@@ -1184,30 +1170,30 @@ form .submit {
   width: 17px;
 }
 .line .dash{
-  height: 40px;
+  height: 30px;
 }
-.text-2 .text{
-  row-gap: 4px;
-  margin-top: 10px;
+.section-2 .text-2 .text{
+  row-gap: 8px;
+  margin-top: 16px;
 }
 .section-2 .text h3{
   font-size: 18px;
 }
 .section-2 .text-2 .text p{
   font-size: 14px;
-  line-height: 18px;
+  line-height: 19px;
 }
 /* Section-3 */
 .section-3{
   min-height: auto;
   width: 100%;
-  padding-bottom: 20px;
+  padding: 30px 0px;
 }
 .section-3 .container{
   width: 95%;
   min-height: auto;
 }
-.top-text{
+.section-3 .top-text{
   row-gap: 5px;
   margin-bottom: 25px;
 }
@@ -1299,7 +1285,7 @@ form .submit {
 /* Section-5 */
 .section-5{
   min-height: auto;
-  padding: 20px 0px;
+  padding: 30px 0px;
 }
 .section-5 .container{
   row-gap: 7px;
@@ -1338,6 +1324,7 @@ form .submit {
 /* Section-6 */
 .section-6{
   min-height: auto;
+  padding: 30px 0px;
 }
 .section-6 .container{
   width: 95%;
@@ -1353,6 +1340,7 @@ form .submit {
 /* .section-6 .m-b{} */
 .section-6 .middle-box{
   flex-direction: column;
+  row-gap: 20px;
 }
 .section-6 .left6, .right6{
   min-height: auto;
@@ -1411,18 +1399,18 @@ form .submit {
 /* Section-7 */
 .section-7{
   min-height: auto;
-  padding: 11px;
+  padding: 30px 0px;
 }
 .section-7 .container{
   width: 95%;
-  row-gap: 10px;
+  row-gap: 20px;
 }
 .section-7 .box{
   row-gap: 10px;
 }
 .section-7 h1{
   font-size: 21px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 .box-1{
   padding: 5px 10px;
