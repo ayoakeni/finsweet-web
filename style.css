@@ -1098,6 +1098,7 @@ header .right .rating{
 }
 form{
   row-gap: 10px;
+  align-items: center;
 }
 form .loc{
   width: 90%;
