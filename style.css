@@ -1325,7 +1325,7 @@ form .submit {
 /* Section-6 */
 .section-6{
   min-height: auto;
-  padding: 30px 0px;
+  padding: 30px 0px 20px;
 }
 .section-6 .container{
   width: 95%;
@@ -1338,7 +1338,11 @@ form .submit {
   font-size: 18px;
   margin-bottom: 10px;
 }
-/* .section-6 .m-b{} */
+.section-6 .m-b{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
 .section-6 .middle-box{
   flex-direction: column;
   row-gap: 20px;
