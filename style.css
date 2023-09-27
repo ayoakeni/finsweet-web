@@ -1498,4 +1498,499 @@ footer .container{
 
 /* Tablet view */
 @media screen and  (max-width: 768px) {
+  /* Nav-bar */
+  nav{
+    padding: 10px;
+  }
+  .nav-box{
+    width: 100%;
+  }
+  .nav-box img{
+    height: 25px;
+  }
+  .menu{
+    column-gap: 10px;
+  }
+  ul{
+    column-gap: 14px;
+  }
+  ul a{
+    font-size: 14px;
+  }
+  .menu-details{
+    column-gap: 8px;
+  }
+  .menu-details img{
+    min-width: 25px;
+    min-height: 25px;
+    max-width: 25px;
+    max-height: 25px;
+  }
+  .details-text{
+    line-height: 18px;
+  }
+  .details-text .one{
+    font-size: 12px;
+  }
+  .details-text .two{
+    font-size: 16px;
+  }
+  
+  /* Header */
+  header{
+    margin-top: 25px;
+  }
+  header .container{
+    width: 95%;
+    row-gap: 20px;
+  }
+  header .left{
+    row-gap: 25px;
+  }
+  header .left h1{
+    font-size: 25px;
+    width: 92%;
+  }
+  header .left .btn a{
+    padding: 15px 20px;
+    font-size: 13px;
+  }
+  header .left .text-bottom img{
+    min-width: 25px;
+    min-height: 25px;
+    max-width: 25px;
+    max-height: 25px;
+  }
+  header .left .text-bottom .text{
+    row-gap: 3px;
+  }
+  header .left .text-bottom .one{
+    font-size: 12px;
+  }
+  header .left .text-bottom .two{
+    font-size: 14px;
+  }
+  header .right{
+    min-height: 70vh;
+  }
+  header .right .service{
+    top: 35px;
+    width: 120px;
+  }
+  header .right .rating{
+    bottom: 10%;
+    width: 145px;
+  }
+  
+  /* Section-1 */
+  .section-1{
+    min-height: auto;
+    padding: 30px 0px;
+  }
+  .section-1 .container{
+    width: 95%;
+    min-height: auto;
+
+  }
+  .section-1 .left1{
+    row-gap: 25px;
+    margin-bottom: 20px;
+  }
+  .section-1 .left1 h1{
+    width: 100%;
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+  .text-one{
+    column-gap: 5px;
+    width: 100%;
+  }
+  .text-one img{
+    min-width: 25px;
+    min-height: 25px;
+    max-width: 25px;
+    max-height: 25px;
+  }
+  .text-one .text{
+    row-gap: 3px;
+    margin-top: 5px;
+  }
+  .text-one h3{
+    font-size: 16px;
+  }
+  .text-one p{
+    line-height: 18px;
+    font-size: 13px;
+    opacity: 80%;
+  }
+  .left1 .bottom{
+    justify-content: flex-start;
+    column-gap: 9px;
+    margin-left: 0px;
+    width: 100%;
+    height: 18px;
+  }
+  .left1 .bottom p{
+    font-size: 11px;
+  }
+  .left1 .bottom a{
+    height: 14px;
+  }
+  .section-1 .right1{
+    row-gap: 15px;
+    height: fit-content;
+  }
+  form{
+    row-gap: 10px;
+  }
+  form .loc{
+    height: 40px;
+    padding: 0px 20px;
+  }
+  form .submit {
+    width: 110px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+  
+  /* Section-2 */
+  .section-2{
+    min-height: auto;
+    width: 100%;
+    padding: 30px 0px;
+  }
+  .section-2 .container{
+    width: 95%;
+    min-height: auto;
+    row-gap: 20px;
+  }
+  .section-2 .left2 h1{
+    font-size: 28px;
+    width: 100%;
+  }
+  .section-2 .left2 p{
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .btn2 a{
+    padding: 13px 19px;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+  .section-2 .right2{
+    row-gap: 20px;
+  }
+  .section-2 .text-2{
+    column-gap: 8px;
+  }
+  .line{
+    row-gap: 7px;
+  }
+  .circle-box{
+    height: 40px;
+  }
+  .circle-box p{
+    height: 40px;
+    width: 40px;
+    font-size: 18px;
+  }
+  .circle-small{
+    top: -7px;
+    height: 17px;
+    width: 17px;
+  }
+  .line .dash{
+    height: 30px;
+  }
+  .section-2 .text-2 .text{
+    row-gap: 8px;
+    margin-top: 16px;
+  }
+  .section-2 .text h3{
+    font-size: 18px;
+  }
+  .section-2 .text-2 .text p{
+    font-size: 14px;
+    line-height: 19px;
+  }
+  /* Section-3 */
+  .section-3{
+    min-height: auto;
+    width: 100%;
+    padding: 30px 0px;
+  }
+  .section-3 .container{
+    width: 95%;
+    min-height: auto;
+  }
+  .section-3 .top-text{
+    row-gap: 5px;
+    margin-bottom: 25px;
+  }
+  .top-text p{
+    font-size: 16px;
+  }
+  .top-text h1{
+    font-size: 28px;
+    width: 70%;
+  }
+  .box-shell{
+    column-gap: 5px;
+    row-gap: 5px;
+    justify-content: center;
+  }
+  .box{
+    row-gap: 8px;
+    min-height: 170px;
+    width: 24.2%;
+  }
+  .box img{
+    min-width: 25px;
+    min-height: 25px;
+    max-width: 25px;
+    max-height: 25px;
+  }
+  .box p{
+    font-size: 14px;
+  }
+  
+  .bottom-text{
+    column-gap: 9px;
+    margin-top: 10px;
+  }
+  .bottom-text p{
+    font-size: 13px;
+  }
+  .bottom-text a{
+    height: 15px;
+  }
+  /* Section-4 */
+  .section-4 .left3{
+    min-height: auto;
+    width: 100%;
+  }
+  .text-box{
+    row-gap: 15px;
+    width: 70%;
+    height: 230px;
+    padding: 15px;
+  }
+  .text-box h1{
+    font-size: 18px;
+  }
+  .text-box a{
+    font-size: 12px;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  .section-4 .right3{
+    min-height: 200px;
+    width: 100%;
+  }
+  .bottom-views{
+    min-height: 49px;
+  }
+  .bottom-box{
+    width: 80%;
+  }
+  .bottom-text2{
+    row-gap: 0px;
+  }
+  .b-text1{
+    font-size: 16px;
+  }
+  .b-text2{
+    font-size: 10px;
+  }
+  /* Section-5 */
+  .section-5{
+    min-height: auto;
+    padding: 30px 0px;
+  }
+  .section-5 .container{
+    row-gap: 7px;
+    width: 95%;
+    min-height: auto;
+  }
+
+  .top-text h3{
+    font-size: 25px;
+    width: 100%;
+  }
+  .box1 img{
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 20px;
+    max-height: 20px;
+  }
+  .box1 p{
+    font-size: 14px;
+  }
+  /* Section-6 */
+  .section-6{
+    min-height: auto;
+    padding: 30px 0px 20px;
+  }
+  .section-6 .container{
+    width: 80%;
+  }
+  .top-text6 h3{
+    line-height: 25px;
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+  .section-6 .m-b{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .section-6 .left6, .right6{
+    min-height: auto;
+    row-gap: 7px;
+    width: 100%;
+    padding: 10px;
+  }
+  .text-2{
+    column-gap: 5px;
+    width: fit-content;
+  }
+  .text-2 img{
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+  }
+  .text-2 .text{
+    row-gap: 0px;
+    margin-top: 14px;
+    line-height: 15px;
+    height: fit-content;
+  }
+  .text-2 h3{
+    font-size: 15px;
+  }
+  .text-2 .text p{
+    font-size: 11px;
+  }
+  .left6, .right6 p{
+    line-height: 19px;
+    font-size:11px;
+  }
+  .bottom-view{
+    height: 40px;
+  }
+  .line-box{
+    width: 20%;
+    margin-right: 28%;
+  }
+  .line-box .line{
+    width: 19px;
+    border: 1px solid  #939191;
+  }
+  .arrow-box{
+    column-gap: 5px;
+  }
+  .arrow-box .arrow-1{
+    padding: 5px;
+    border-radius: 15px;
+  }
+  .arrow-box .arrow-2{
+    padding: 11px;
+    border-radius: 21px;
+  }
+  /* Section-7 */
+  .section-7{
+    min-height: auto;
+    padding: 30px 0px;
+  }
+  .section-7 .container{
+    width: 75%;
+    row-gap: 20px;
+  }
+  .section-7 .box{
+    row-gap: 10px;
+  }
+  .section-7 h1{
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .box-1{
+    padding: 10px 10px;
+    column-gap: 2px;
+  }
+  .box-1 .text{
+    row-gap: 3px;
+    width: 100%;
+  }
+  .box-1 h3{
+    font-size: 16px;
+  }
+  .box-1 p{
+    line-height: 17px;
+    font-size: 12px;
+  }
+  .box-2{
+    column-gap: 10px;
+    padding: 10px 10px;
+  }
+  .box-2 h3{
+    font-size: 16px;
+  }
+  .sct-7-btn{
+   height: 25px ;
+   width: 35px;
+  }
+  /* Footer */
+  footer{
+    min-height: auto;
+  }
+  footer .container{
+    width: 93%;
+    padding: 20px 0px;
+  }
+  .left-footer h1{
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .social-media{
+    column-gap: 15px;
+    width: fit-content;
+  }
+  .social-media img{
+    height: 15px;
+  }
+  .right-footer{
+    row-gap: 5px;
+    width: 40%;
+  }
+  .right-text{
+    line-height: 18px;
+  }
+  .right-text span{
+    font-size: 11px;
+  }
+  .right-text p{
+    font-size: 14px;
+  }
+  .bottom-footer{
+    min-height: 50px;
+  }
+  .footer-box{
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .footer-box img{
+    height: 17px;
+  }
+  .footer-box ul{
+    column-gap: 13px;
+  }
+  .footer-box ul a{
+    font-size: 12px;
+  }
+  .footer-box span{
+    font-size: 12px;
+  }  
  }
