@@ -932,7 +932,7 @@ footer .container{
 
 /* Mobile view */
 
-@media screen and (max-width: 414px),(max-width: 425px){
+@media screen and (max-width: 425px){
   /* Nav-bar */
 nav{
   padding: 10px;
