@@ -1110,7 +1110,7 @@ header .right .rating{
 /* Section-1 */
 .section-1{
   min-height: auto;
-  padding: 30px 0px;
+  padding: 30px 14px;
 }
 .section-1 .container{
   flex-direction: column;
@@ -1193,7 +1193,7 @@ form .submit {
 .section-2{
   min-height: auto;
   width: 100%;
-  padding: 30px 0px;
+  padding: 30px 20px;
 }
 .section-2 .container{
   flex-direction: column;
@@ -1209,7 +1209,7 @@ form .submit {
 .section-2 .left2 h1{
   font-size: 21px;
   width: 100%;
-  text-align: normal;
+  text-align: center;
 }
 .section-2 .left2 p{
   font-size: 13px;
@@ -1401,7 +1401,7 @@ form .submit {
 /* Section-6 */
 .section-6{
   min-height: auto;
-  padding: 30px 0px 20px;
+  padding: 30px 20px 20px;
 }
 .section-6 .container{
   width: 95%;
@@ -1480,7 +1480,7 @@ form .submit {
 /* Section-7 */
 .section-7{
   min-height: auto;
-  padding: 30px 0px;
+  padding: 30px 20px;
 }
 .section-7 .container{
   width: 95%;
@@ -1525,7 +1525,7 @@ footer{
 }
 footer .container{
   width: 95%;
-  padding: 20px 0px;
+  padding: 20px 5px;
 }
 .left-footer h1{
   font-size: 18px;
