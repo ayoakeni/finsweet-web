@@ -1325,7 +1325,7 @@ form .submit {
 }
 .text-box{
   row-gap: 15px;
-  width: 70%;
+  width: 68%;
   height: 200px;
   padding: 15px;
 }
@@ -1365,7 +1365,7 @@ form .submit {
   padding: 30px 0px;
 }
 .section-5 .container{
-  row-gap: 7px;
+  row-gap: 20px;
   width: 95%;
   min-height: auto;
 }
@@ -1380,7 +1380,7 @@ form .submit {
 .box-shell-1{ 
   justify-content: center;
   flex-wrap: wrap;
-  row-gap: 5px;
+  row-gap: 25px;
   column-gap: 10px;
 }
 .section-5 .box1{
