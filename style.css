@@ -931,7 +931,7 @@ footer .container{
 
 /* Mobile view */
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 619px){
   /* Nav-bar */
 nav{
   padding: 10px;
@@ -1496,7 +1496,7 @@ footer .container{
 }
 
 /* Tablet view */
-@media screen and  (min-width: 768px){
+@media screen and  (min-width: 620px){
   /* Nav-bar */
   nav{
     padding: 10px;
@@ -1994,7 +1994,7 @@ footer .container{
   }  
  }
 /* Laptop view */
- @media screen and (min-width: 1024px) {
+ @media screen and (min-width: 1078px) {
   *{
     padding: 0;
     margin: 0;
