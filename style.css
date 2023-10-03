@@ -934,61 +934,47 @@ footer .container{
 @media screen and (max-width: 619px){
   /* Nav-bar */
 nav{
-  padding: 7px 0px;
+  padding: 7px 3px;
 }
 .nav-box{
   justify-content: space-between;
   width: 99%;
 }
 .nav-box img{
-  height: 19px;
+  height: 22px;
 }
 .menu{
   display: none;
 }
 .drop-box{
   position: relative;
-  width: 70px;
+  width: fit-content;
 }
 .drop-down{
-  position: relative;
   width: 100%;
   height: 20px;
-  background-color: #939191;
-  color: white;
-  font-size: 13px;
-  font-family: 'manrope', sans-serif;
-  font-weight: 600;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 5px 10px rgba(0,0,0,.2);
   cursor: pointer;
 }
-.drop-down .left-icon,
-.drop-down .right-icon{
-  position: relative;
-  top: 2px;
-  left: 2px;
+.drop-down .bar,
+.drop-down .x{
   display: inline-block;
+  font-size: 24px;
+  font-weight: 600;
   width: 8px;
   height: 3px;
-  background-color: white;
   border-radius: 40px;
 }
-.drop-down .left-icon{
-  left: 5px;
-  transform: rotate(45deg);
+.drop-down .bar{
+  display: contents;
 }
-.drop-down.active .left-icon{
-  transform: rotate(135deg);
+.drop-down.active .bar{
+  display: none;
 }
-.drop-down .right-icon{
-  right: 7px;
-  transform: rotate(-45deg);
+.drop-down .x{
+  display: none;
 }
-.drop-down.active .right-icon{
-  transform: rotate(-135deg);
+.drop-down.active .x{
+  display: contents;
 }
 .drop-down .items{
   position: absolute;
