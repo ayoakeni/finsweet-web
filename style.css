@@ -984,9 +984,6 @@ nav{
   height: auto;
   margin-top: 27px;
   visibility: hidden;
-  overflow: hidden;
-  transition: .5s;
-  transition-delay: .1s;
 }
 .drop-down.active .items{
   visibility: visible;
