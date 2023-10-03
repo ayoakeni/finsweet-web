@@ -979,8 +979,8 @@ nav{
 .drop-down .items{
   position: absolute;
   top: 0;
-  left: -110px;
-  width: 180px;
+  left: -150px;
+  width: 170px;
   height: auto;
   margin-top: 27px;
   visibility: hidden;
