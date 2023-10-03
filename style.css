@@ -934,11 +934,11 @@ footer .container{
 @media screen and (max-width: 430px){
   /* Nav-bar */
 nav{
-  padding: 7px 3px;
+  padding: 7px 10px;
 }
 .nav-box{
   justify-content: space-between;
-  width: 99%;
+  width: 100%;
 }
 .nav-box img{
   height: 22px;
