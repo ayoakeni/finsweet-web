@@ -979,8 +979,8 @@ nav{
 .drop-down .items{
   position: absolute;
   top: 0;
-  left: -150px;
-  width: 170px;
+  left: -217px;
+  width: 230px;
   height: auto;
   margin-top: 27px;
   visibility: hidden;
@@ -988,14 +988,19 @@ nav{
 .drop-down.active .items{
   visibility: visible;
 }
+.items{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(36, 34, 34);
+  min-height: 95vh;
+}
 .items ul{
   flex-direction: column;
-  column-gap: 5px;
-  row-gap: 3px;
+  row-gap: 23px;
   align-items: normal;
   border-right: none;
   padding-right: 0px; 
-  margin-bottom: 3px;
 }
 .items ul a{
   position: relative;
@@ -1003,8 +1008,12 @@ nav{
   display: flex;
   font-size: 14px;
   color: white;
-  background-color: lightslategray;
-  padding: 3px 8px;
+  padding: 13px 8px;
+  border-bottom: 1px solid ;
+}
+.items ul a:hover{
+  color: black;
+  background-color: lightgrey;
 }
 .drop-down.active .items ul a,
 .drop-down.active .items .menu-details{
@@ -1012,25 +1021,27 @@ nav{
 }
 .menu-details{
   position: relative;
-  left: 100%;
   column-gap: 10px;
-  background-color: lightslategray;
-  padding: 3px 8px;
+  padding: 13px 8px;
+  margin-top: 23px;
+  justify-content: center;
 }
 .menu-details img{
-  min-width: 23px;
-  min-height: 23px;
-  max-width: 23px;
-  max-height: 23px;
+  min-width: 30px;
+  min-height: 30px;
+  max-width: 30px;
+  max-height: 30px;
 }
  .details-text{
-  line-height: 15px;
+  line-height: 19px;
 }
 .details-text .one{
-  font-size: 10px;
+  font-size: 13px;
+  color: white;
 }
 .details-text .two{
-  font-size: 14px;
+  font-size: 17px;
+  color: white;
 }
 /* Header */
 header{
