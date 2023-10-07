@@ -993,7 +993,7 @@ nav{
   flex-direction: column;
   justify-content: center;
   background-color: rgb(36, 34, 34);
-  min-height: 75vh;
+  min-height: 70vh;
 }
 .items ul{
   flex-direction: column;
@@ -1006,7 +1006,7 @@ nav{
   position: relative;
   left: 100%;
   display: flex;
-  font-size: 14px;
+  font-size: 20px;
   color: white;
   padding: 13px 8px;
   border-bottom: 1px solid ;
@@ -1027,20 +1027,20 @@ nav{
   justify-content: center;
 }
 .menu-details img{
-  min-width: 30px;
-  min-height: 30px;
-  max-width: 30px;
-  max-height: 30px;
+  min-width: 35px;
+  min-height: 35px;
+  max-width: 35px;
+  max-height: 35px;
 }
  .details-text{
-  line-height: 19px;
+  line-height: 24px;
 }
 .details-text .one{
-  font-size: 13px;
+  font-size: 19px;
   color: white;
 }
 .details-text .two{
-  font-size: 17px;
+  font-size: 23px;
   color: white;
 }
 /* Header */
