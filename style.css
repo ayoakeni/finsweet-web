@@ -108,6 +108,11 @@ header .left .btn a{
   border: none;
   border-radius: 8px;
   background-color: #FF6433; 
+  transition: 1s;
+}
+header .left .btn a:hover{
+  background-color: black;
+  color: red;
 }
 header .left .text-bottom{
   display: flex;
@@ -987,6 +992,13 @@ nav{
 }
 .drop-down.active .items{
   visibility: visible;
+  transition: transform .5 ease-in;
+  animation: left 1s ease-in;
+}
+@keyframes left {
+  0%{
+    transform: translatex(100%);
+  }
 }
 .items{
   display: flex;
@@ -1062,6 +1074,13 @@ header .left h1{
   text-align: center;
   font-size: 25px;
   width: 100%;
+  transition: transform .5 ease-in;
+  animation: lh1 1s ease-in;
+}
+@keyframes lh1 {
+  0%{
+    transform: scale(70%);
+  }
 }
 header .left .btn a{
   padding: 15px 20px;
@@ -1089,18 +1108,38 @@ header .left .text-bottom .two{
 header .right{
   width: 100%;
   min-height: 70vh;
+  transition: transform .5 ease-in;
+  animation: pull-in 1s ease-in;
+}
+@keyframes pull-in {
+  0%{
+    transform: scale(80%);
+  }
 }
 header .right .service{
   left: 0;
   top: 30px;
   width: 120px;
+  transition: transform .5 ease-in;
+  animation: service 1s ease-in;
+}
+@keyframes service {
+  0%{
+    transform: translatex(-80%);
+  }
 }
 header .right .rating{
   right: 0px;
   bottom: 8%;
   width: 145px;
+  transition: transform .5 ease-in;
+  animation: rating 1s ease-in;
 }
-
+@keyframes rating {
+  0%{
+    transform: translate(80%);
+  }
+}
 /* Section-1 */
 .section-1{
   min-height: auto;
