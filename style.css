@@ -3,6 +3,16 @@
   margin: 0;
   box-sizing: border-box;
 }
+body::-webkit-scrollbar{
+  width: 0.45rem;
+  height: 0.16rem;
+}
+body::-webkit-scrollbar-track{
+
+}
+body::-webkit-scrollbar-thumb{
+  background: #FF6433;
+}
 /* Nav-bar */
 nav{
   position: fixed;
@@ -932,8 +942,6 @@ footer .container{
   text-decoration: none;
   opacity: 60%;
 }
-
-
 /* Mobile view */
 
 @media screen and (max-width: 625px){
@@ -988,6 +996,7 @@ nav{
   width: 300px;
   height: auto;
   margin-top: 27px;
+  animation: right 1s ease-in;
   visibility: hidden;
 }
 .drop-down.active .items{
@@ -1000,6 +1009,14 @@ nav{
     transform: translatex(100%);
   }
 }
+
+@keyframes right
+{
+  0%{
+    transform: translatex(-100%);
+  }
+}
+
 .items{
   display: flex;
   flex-direction: column;
